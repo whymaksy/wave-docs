@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wavesafe protection — wave</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #24292e; max-width: 800px; margin: 0 auto; padding: 24px; background-color: #f6f8fa; }
+        .container { background-color: #ffffff; padding: 40px; border: 1px solid #e1e4e8; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+        h1 { color: #000000; border-bottom: 1px solid #eaecef; padding-bottom: 0.3em; font-size: 2em; }
+        h2 { color: #24292e; margin-top: 24px; border-bottom: 1px solid #eaecef; padding-bottom: 0.3em; font-size: 1.5em; }
+        h3 { color: #0366d6; font-size: 1.25em; margin-top: 20px; }
+        p, li { color: #586069; font-size: 1em; }
+        ul, ol { padding-left: 20px; }
+        .tech-box { background-color: #f1f8ff; border-left: 4px solid #0366d6; padding: 15px; margin: 20px 0; border-radius: 4px; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="index.html" style="display: inline-block; margin-bottom: 20px; color: #0366d6; text-decoration: none; font-weight: 600;">← Back to Main Page</a>
+    
+    <h1>wavesafe — what is it?</h1>
+    <p><strong>wavesafe</strong> is our proprietary, custom-built data protection framework designed to keep your personal lifestyle and financial records completely safe from unauthorized access and third-party tracking.</p>
+
+    <h2>core pillars of wavesafe</h2>
+    <ol>
+        <li><strong>minimal data collection:</strong> we minimize data tracking to the absolute technical limit. only your username is visible for system routing.</li>
+        <li><strong>ws1.0 cryptographic protocol:</strong> a custom internal pipeline that manages locally-encrypted keys and strict data handling.</li>
+        <li><strong>end-to-end secure lifecycle:</strong> complete isolation of data on both your physical device storage and remote databases.</li>
+    </ol>
+
+    <h2>the ws1.0 encryption protocol</h2>
+    <p>the <strong>ws1.0</strong> protocol defines exactly how your data moves securely throughout its entire lifecycle:</p>
+    
+    <div class="tech-box">
+        <strong>data lifecycle pipeline:</strong>
+        <ol>
+            <li><strong>generation:</strong> the user creates data (a goal, task, or transaction record) inside the application.</li>
+            <li><strong>local isolation:</strong> the data is instantly compiled and stored into encrypted directories locally on the device using argon2id and aes-gcm algorithms.</li>
+            <li><strong>transport security:</strong> all data packets are tunneled through strict tls/https transport layers to completely prevent any man-in-the-middle (mitm) attacks.</li>
+            <li><strong>zero-knowledge cloud storage:</strong> the payload arrives at the database server as encrypted binary text. it is saved in its encrypted state, meaning no one—including system administrators—can read it.</li>
+        </ol>
+    </div>
+</div>
+</body>
+</html>
