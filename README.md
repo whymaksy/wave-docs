@@ -4,7 +4,7 @@ developer - maksy
 
 telegram-channel wave - https://t.me/waveofgoals
 
-tellegram support wave - @WOFSupport_bot
+tellegram support wave - [@WOFSupport_bot](https://t.me/WOFSupport_bot)
 
 email support (Russian-speaking users): wave.ru@outlook.com
 
