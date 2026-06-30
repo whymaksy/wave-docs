@@ -2,6 +2,8 @@
 
 developer - maksy
 
+website - https://whymaksy.github.io/wave-docs/
+
 telegram-channel wave - https://t.me/waveofgoals
 
 tellegram support wave - [@WOFSupport_bot](https://t.me/WOFSupport_bot)
