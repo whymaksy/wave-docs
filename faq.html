@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Questions (FAQ) — Wave</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #24292e; max-width: 800px; margin: 0 auto; padding: 24px; background-color: #f6f8fa; }
+        .container { background-color: #ffffff; padding: 40px; border: 1px solid #e1e4e8; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+        h1 { color: #000000; border-bottom: 1px solid #eaecef; padding-bottom: 0.3em; font-size: 2em; }
+        h2 { color: #0366d6; margin-top: 30px; font-size: 1.3em; border-bottom: 1px solid #eaecef; padding-bottom: 5px; }
+        p, li { color: #586069; font-size: 1em; }
+        ul, ol { padding-left: 20px; }
+        .beta-warning { background-color: #fffbdd; border-left: 4px solid #d9b800; padding: 15px; margin: 20px 0; border-radius: 4px; color: #24292e; }
+        .info-block { background-color: #f1f8ff; border-left: 4px solid #0366d6; padding: 15px; margin: 20px 0; border-radius: 4px; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Frequently Asked Questions (FAQ)</h1>
+    <p>Welcome to the help section of the <strong>Wave (Wave of Goals)</strong> application! Here you will find answers to the main questions regarding features, security, and application setup.</p>
+
+    <h2>1. What is the Wave application?</h2>
+    <p>The name comes from the phrase "Wave of Goals". It is a clean, neat, and highly intuitive application for tracking your goals and personal finances, designed to keep you riding the wave of productivity.</p>
+
+    <h2>2. What is the difference between Regular Goals and Money Goals?</h2>
+    <ul>
+        <li><strong>Regular Goal:</strong> Best suited for any standard milestones (e.g., studying, fitness). You can manually adjust your progress using the "+" and "-" buttons, and plan time-specific tasks (e.g., mapping out your days for a whole month ahead). Inside a regular goal, you can practically build a whole separate world with custom sub-tasks!</li>
+        <li><strong>Money Goal:</strong> This is your personal virtual piggy bank. It is <strong>completely disconnected from real bank cards or financial accounts</strong> (no real money transfers are involved). You simply log your savings: the progress updates automatically as you add or subtract amounts, and the screen displays a history of your 5 most recent transactions.</li>
+    </ul>
+
+    <h2>3. How does synchronization and multi-device login work?</h2>
+    <p>To log in on a new device, simply enter your unique username and master password. The application automatically downloads the encrypted data packages from the cloud and decrypts them on the fly.</p>
+    <div class="beta-warning">
+        <strong>Please Note (Beta Mode):</strong> The cloud synchronization feature is currently in its beta testing phase. Data may not sync instantly between devices. If you create a goal on one phone, it might appear on your second device with a slight delay. We are actively optimizing synchronization speeds.
+    </div>
+
+    <h2>4. Can I use the application without an internet connection?</h2>
+    <p>Yes! Wave fully supports standalone offline operation. All your goals, progress adjustments, and financial histories are saved locally in the smartphone's encrypted storage. Once an internet connection is established, the app will securely upload the encrypted payloads to the cloud.</p>
+
+    <h2>5. Why am I not receiving goal reminders on time?</h2>
+    <p>For the built-in notification system to function smoothly, the operating system requires specific permissions. Please navigate to your phone's system settings and grant the application <strong>three critical permissions</strong>:</p>
+    <ol>
+        <li>Standard system notifications.</li>
+        <li>Exact alarms/reminders and urgent notifications.</li>
+        <li>Background activity execution (disabling battery optimization for the Wave app).</li>
+    </ol>
+    <p>Without these, the smartphone's operating system may freeze the app's background processes, preventing reminders from triggering on time.</p>
+
+    <h2>6. How can I customize the interface?</h2>
+    <p>In the "Settings" section, you can fully adapt the app to your liking:</p>
+    <ul>
+        <li>Switch between Dark, Light, or System themes.</li>
+        <li>Change the interface language.</li>
+        <li>Adjust text rendering by modifying font weight and size for a comfortable reading experience.</li>
+        <li>Use custom names and emojis to organize your goals visually. Important goals can also be pinned directly to the top of your screen.</li>
+    </ul>
+
+    <h2>7. Is my data secure?</h2>
+    <div class="info-block">
+        <strong>Zero-Knowledge Architecture:</strong> All your records are encrypted directly on your device using AES-GCM (256-bit) and Argon2id algorithms before being sent to the cloud. The server only sees your plain-text username for authentication; everything else is a scrambled cryptographic string. Remember: if you lose your master password, data recovery is impossible since we do not store your password on our servers.
+    </div>
+
+    <h2>8. How can I contact support?</h2>
+    <p>You can reach out through the "Help" section inside the app, contact our official Telegram Support Bot (<a href="https://t.me/WOFSupport_bot" target="_blank">@WOFSupport_bot</a>), or email us at <a href="mailto:waveofgoals@hotmail.com">waveofgoals@hotmail.com</a> (or <a href="mailto:wave.ru@outlook.com">wave.ru@outlook.com</a> for regional inquiries).</p>
+</div>
+</body>
+</html>
