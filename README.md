@@ -10,5 +10,7 @@ email support (Russian-speaking users): wave.ru@outlook.com
 
 email  upport (English-speaking & International users): waveofgoals@hotmail.com
 
-download app:
+
+# DOWNLOAD APP:
+
 rustore - 
